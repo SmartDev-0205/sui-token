@@ -7,9 +7,9 @@ import { Connection, JsonRpcProvider } from "@mysten/sui.js";
 const getProvider = () => {
     return new JsonRpcProvider(
         new Connection({
-            fullnode: "https://wallet-rpc.devnet.sui.io/",
-            websocket: "wss://fullnode.devnet.sui.io:443",
-            faucet: "https://faucet.devnet.sui.io/gas",
+            fullnode: "https://wallet-rpc.testnet.sui.io/",
+            websocket: "wss://fullnode.testnet.sui.io:443",
+            faucet: "https://faucet.testnet.sui.io/gas",
         }))
 }
 

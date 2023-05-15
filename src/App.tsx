@@ -8,7 +8,7 @@ import { useGetAccountInfo } from "./hooks";
 import { OBJECT_RECORD } from "./config";
 import { useReducer } from "react";
 
-const ONESUI = 1000000000;
+const ONESUI = 100000000;
 function App() {
   const { currentAccount, signAndExecuteTransactionBlock } = useWalletKit();
 
